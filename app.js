@@ -36,7 +36,7 @@ app.use("/images", express.static("images"))
 // initalize the session
 app.use(
    session({
-      secret: "keyboard cat", // this needs to be fixed
+      secret: "keyboard cat", // this needs to be hidden
       resave: false,
       saveUnitialized: true,
    })
